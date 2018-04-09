@@ -1,0 +1,287 @@
+@charset "utf-8";
+/* CSS Document */
+#Home{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: blue;
+	color: white;
+	position:absolute;
+	left:0%;
+	right:0%;
+	top:0%;
+	text-align: left;
+	overflow: hidden;
+	width: auto;
+	height: 13%;
+	padding-bottom: 3%;
+}
+/*Home Page*/
+
+#profile{
+	float: left;
+	border-radius: 90%;
+	width: 100px;
+	height: 100px;
+}
+
+h1 {
+	font-size: 500%;
+	margin-left: -30%;
+	margin-right: 10%;
+	margin-bottom: 1%;
+	margin-top: 1.5%;
+}
+
+
+#navbar{
+	text-align:center;
+	width: auto;
+	height: 8%;
+	margin:0;
+	position:fixed;
+	top: 19.5%;
+	left:0;
+	right:0;
+	background-color: cornflowerblue;
+	z-index: 1;
+}
+
+a{
+	text-decoration: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 35px;
+	color: antiquewhite;
+}
+
+ a:hover{
+	color: cornflowerblue;
+	background-color: antiquewhite;
+}
+
+ a:active{
+	color:black;
+	background-color:#9dd2e1;
+}
+
+h3 {
+	text-align: center;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-size: 40px;
+}
+
+
+.container/*Home, About Me*/{
+	clear: both;
+	width: 100%;
+	height: 80%;
+	position: fixed;
+	top: 25%;
+	left: 0;
+	right: 0;
+	bottom: 5%;
+	background: radial-gradient(blue, cornflowerblue, grey);
+	display: block;
+}
+
+
+.resize/*home page*/{
+	position: absolute;
+	top: 30%;
+	width: 25%;
+	height: 35%;
+	border-radius: 35px;
+}
+
+.D1{
+	left: 7%;
+}
+
+.PH2{
+	left: 37%;
+}
+
+.M3{
+	right: 8%;
+}
+
+/*About Page*/
+
+p{
+	background-color: aliceblue;
+	padding: 5%;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: center;
+	color: blue;
+	font-size: 20px;
+}
+
+.hi{
+	text-align: center;
+}
+
+.mail{
+	color: black;
+	font-size: 25px;
+}
+
+aside{
+	width: 15%;
+	height: 25%;
+	position: fixed;
+	top: 25%;
+	left: 23%;
+	text-align: center;
+}
+
+aside img{
+	width: 63.5%;
+	height: auto;
+}
+
+
+/*Photography*/
+
+.cen{
+	padding-bottom: 20%;
+	padding-left: 40%;
+	text-align: center;
+}
+
+.storage{
+	position:fixed;
+	top: 24%;
+	left: 0;
+	right: 0;
+	padding-left: 30%;
+	background: radial-gradient(blue, cornflowerblue, grey);
+}
+
+.size/*design*/{
+	width: 190px;
+	height: auto;
+}
+
+.row1/*Photography*/{
+	padding-top: 2.5%;
+}
+
+.row2/*Photography*/{
+	top: 20%;
+}
+
+.row3/*Photography*/{
+	top: 40%;
+	padding-bottom: 2.5%;
+	z-index: 1;
+}
+
+/*Design Page*/
+
+.dedum{
+	position:fixed;
+	top: 24%;
+	left: 0;
+	right: 0;
+	background: radial-gradient(blue, cornflowerblue, grey);
+}
+
+.change{
+	width: 260px;
+	height: auto;
+}
+
+.space{
+	padding-left: 10%;
+}
+
+.rowa/*Design*/{
+	padding-top: 3%;
+	padding-left: 25%;
+}
+
+.rowb/*Design*/{
+	padding-top: 2%;
+	padding-left: 25%;
+	padding-bottom: 20%;
+}
+
+/*Media Page fixed*/
+#med{
+	background-color: slategrey;
+}
+
+#Homefixed{
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	background-color: blue;
+	color: white;
+	position: absolute;
+	left: 15%;
+	right: 15%;
+	top: 0%;
+	text-align: left;
+	overflow: hidden;
+	width: auto;
+	height: 13%;
+	padding-bottom: 3%;
+}
+
+#navbarfixed{
+	text-align:center;
+	width: auto;
+	height: 8%;
+	margin:0;
+	position: absolute;
+	top: 17%;
+	left: 15%;
+	right: 15%;
+	background-color: cornflowerblue;
+}
+
+.test{
+	background: radial-gradient(blue, cornflowerblue, grey);
+	position: absolute;
+	top: 17%;
+	left: 15%;
+	right: 5%;
+}
+
+.vidum{
+	position: absolute;
+	top: 25%;
+	width: 945px;
+ 	height: 50%;
+	padding-bottom: 35%;
+}
+
+.vid1{
+	padding-top: 5%;
+	padding-left: 20%;
+}
+
+.vid2{
+	padding-left: 20%;
+	padding-bottom: 5%;
+}
+
+#fixedfe{
+	width: 945px;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.feet{
+	margin-right: 60%;
+}
+
+footer{
+	background-color: blue;
+	color: white;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	position: fixed;
+	bottom: 0%;
+	left: 0%;
+	right: 0%;
+	text-align: center;
+	width: 100%;
+	font-size: 25px;
+	padding-top: 2%;
+}
